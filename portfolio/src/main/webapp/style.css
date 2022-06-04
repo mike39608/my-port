@@ -4,11 +4,25 @@
   width: 650px;
 }
 
+title {
+    text-align: center;
+}
+
 #greeting-container {
   margin-top: 20px;
 }
 p1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+  }
+
+  p2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
+  #niceback {
+    height: 1500px;
+    background-image: linear-gradient(rgb(227, 227, 253), rgb(225, 255, 225));
   }
   
