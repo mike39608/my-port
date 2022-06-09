@@ -8,12 +8,11 @@ title {
     text-align: center;
 }
 
-#greeting-container {
-  margin-top: 20px;
-}
-
 h1 {
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.986);
+    -ms-text-size-adjust: inherit;
 }
 
 p1 {
@@ -26,12 +25,6 @@ p1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 90%;
     color: white;
-  }
-
-  p3 {
-      font-family: 'Times New Roman', Times, serif;
-      color: rgba(255, 255, 255, 0.986);
-      font-size: 100%;
   }
   
   #gradientBackground {
