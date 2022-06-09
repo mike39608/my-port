@@ -15,8 +15,7 @@
 /**
  * Adds a random greeting to the page.
  */
-function certainOutput() {
 
-    const gameDisplay = document.getElementById("test");
-    gameDisplay.innerHTML = "Star Wars Battlefront 2";
-}
+//I was trying to figure out a way to make my button display the message
+//but i did not work out
+
