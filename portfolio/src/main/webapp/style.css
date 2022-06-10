@@ -4,25 +4,26 @@
   width: 650px;
 }
 
+body {
+    font-family: 'Times New Roman', Times, serif;     
+}
+
 title {
     text-align: center;
 }
 
 h1 {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
     color: rgba(255, 255, 255, 0.986);
     -ms-text-size-adjust: inherit;
 }
 
 h2 {
-    font-family: 'Times New Roman', Times, serif;
     font-size: 95%;
     color: rgb(0, 0, 0);
   }
 
 p {
-    font-family: 'Times New Roman', Times, serif;
     font-size: 90%;
     color: white;
   }
@@ -37,5 +38,4 @@ p {
   img {
       color: white;
       font-size: 95%;
-      font-family: 'Times New Roman', Times, serif;
   }
