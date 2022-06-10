@@ -15,13 +15,13 @@ h1 {
     -ms-text-size-adjust: inherit;
 }
 
-p1 {
+h2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 95%;
     color: rgb(0, 0, 0);
   }
 
-  p2 {
+p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 90%;
     color: white;
