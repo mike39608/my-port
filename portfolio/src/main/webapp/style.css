@@ -5,7 +5,11 @@
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;     
+    font-family: 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-image: url(https://wallpapershome.com/images/pages/pic_h/12771.jpg);
+    background-size: cover;
+    background-attachment: fixed;     
 }
 
 title {
@@ -28,13 +32,6 @@ p {
     color: white;
   }
   
-  #gradientBackground {
-    background-repeat: no-repeat;
-    background-image: url(https://wallpapershome.com/images/pages/pic_h/12771.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-  }
-
   img {
       color: white;
       font-size: 95%;

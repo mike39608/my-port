@@ -8,7 +8,6 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <div id="gradientBackground">
     <div id="content">
         <h1>Michael Peters' Portfolio</h1>
         <center><img src="/images/IMG_3549.jpg" width="130" height="190"></center>  
@@ -77,6 +76,15 @@
     </div>
         <p>The Game that I like the most is Star Wars Battlefront 2</p>
     </div>
+    <div class="w3-panel w3-light-gray w3-round-xlarge">
+        <h2>Send Me Your Email</h2>
     </div>
+      <form action="/emailReceiver" method="POST">
+        <p>Enter your email:</p>
+        <textarea name="email-input">EMAIL</textarea>
+        <br/>
+        <input type="submit" />
+      </form>
+
   </body>
 </html>
