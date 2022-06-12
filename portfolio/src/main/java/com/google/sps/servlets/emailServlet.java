@@ -11,7 +11,7 @@ public class emailServlet extends HttpServlet {
 
   @Override
   public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
-
+    
     // Get the value entered in the form.
     String emailValue = request.getParameter("email-input");
 
@@ -20,6 +20,7 @@ public class emailServlet extends HttpServlet {
 
     // Write the value to the response so the user can see it.
     response.getWriter().println("You have submitted the email: " + emailValue);
+    response.sendRedirect("https://google.com");
   }
 
 }
