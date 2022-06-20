@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/emailReceiver")
-public class emailServlet extends HttpServlet {
+public class EmailServlet extends HttpServlet {
 
   @Override
   public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -20,7 +20,10 @@ public class emailServlet extends HttpServlet {
 
     // Write the value to the response so the user can see it.
     response.getWriter().println("You have submitted the email: " + emailValue);
-    response.sendRedirect("https://google.com");
+    //response.sendRedirect("https://google.com");
+    Datastore datastore = DatastoreOptions.getDefaultInstance().getService();
+    datastore.put(emailValue);
+
   }
 
 }
