@@ -4,6 +4,35 @@
   width: 650px;
 }
 
-#greeting-container {
-  margin-top: 20px;
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-image: url(https://wallpapershome.com/images/pages/pic_h/12771.jpg);
+    background-size: cover;
+    background-attachment: fixed;     
 }
+
+title {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.986);
+    -ms-text-size-adjust: inherit;
+}
+
+h2 {
+    font-size: 95%;
+    color: rgb(0, 0, 0);
+  }
+
+p {
+    font-size: 90%;
+    color: white;
+  }
+  
+  img {
+      color: white;
+      font-size: 95%;
+  }
