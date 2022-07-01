@@ -56,13 +56,11 @@ public class EmailServlet extends HttpServlet {
     
     List<Email> emails = new ArrayList<>();
     while (results.hasNext()) {
-    Entity entity = results.next();
-
-    long id = entity.getKey().getId();
-    String email = entity.getString("email");
-
-    Email emailTask = new Email(id, email);
-    emails.add(emailTask);
+        Entity entity = results.next();
+        long id = entity.getKey().getId();
+        String email = entity.getString("email");
+        Email emailTask = new Email(id, email);
+        emails.add(emailTask);
     }
 
     Gson gson = new Gson();

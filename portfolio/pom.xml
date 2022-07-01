@@ -46,13 +46,6 @@
         <version>1.104.0</version>
     </dependency>
 
-    <!--tasks-->
-    <dependency>
-        <groupId>com.google.cloud</groupId>
-        <artifactId>google-cloud-tasks</artifactId>
-        <version>1.29.1</version>
-    </dependency>
-
     <!-- jsoup -->
     <dependency>
       <groupId>org.jsoup</groupId>
